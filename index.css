@@ -1,0 +1,511 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Montserrat:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.body {
+    background-color: #1E1E1E;
+    background-image: url(./img/bg_desktop.png);
+    /*background-size: 100% auto;*/
+    background-position: 35% 0%;
+    background-repeat: no-repeat;
+}
+
+.description {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 1.2em;
+    color: #E4E5EA;
+    margin-top: 10px;
+}
+
+.nav__link,
+.contacts__phone {
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #E4E5EA;
+}
+
+.offer-heading {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #E4E5EA;
+}
+
+.highlighted {
+    background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* text-fill-color: transparent; */
+}
+
+.highlited__heading {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.offer-text {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #E4E5EA;
+}
+
+.magnet-heading {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    color: #E4E5EA;
+    margin-top: 4px;
+}
+
+.highlighted__magnet {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+}
+
+.magnet-subheading {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    color: #E4E5EA;
+}
+
+.magnet-text {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #E4E5EA;
+}
+
+.magnet-button {
+    text-decoration: none;
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #E4E5EA;
+    padding: 21px 5px;
+    background-color: #4077F3;
+    margin-top: 66px;
+    margin-left: 28px;
+}
+
+.footer-heading {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    color: #656566;
+    padding-bottom: 10px;
+}
+
+.footer-link, .footer-text {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #E4E5EA;
+    text-decoration: none;
+}
+.footer-text {
+    width: 212px;
+}
+
+.copyright,
+.copyright__link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #E4E5EA;
+}
+
+.copyright {
+    padding-bottom: 20px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 46px;
+}
+
+.brand {
+    width: 140px;
+    margin-top: 11px;
+}
+
+.nav {
+    margin-left: 52px;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    width: 503px;
+    margin-top: 15px;
+}
+
+.contacts {
+    margin-left: 137px;
+}
+
+.contacts__list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.contacts__ico {
+    width: 55px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main .container {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer {
+    width: 362px;
+}
+
+.offer-text {
+    display: block;
+    width: 275px;
+    margin-top: 30px;
+}
+
+.magnet {
+    margin-top: 15px;
+    width: 291px;
+}
+
+.magnet-heading {
+    display: block;
+}
+
+.magnet__list {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.magnet__item {
+    width: 135px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    text-align: right;
+    margin-top: 32px;
+}
+
+.magnet-subheading,
+.magnet-text {
+    display: block;
+}
+
+.magnet-text {
+    width: 135px;
+}
+
+.footer .container {
+    margin-top: 69px;
+    padding-top: 55px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.about {
+    width: 293px;
+}
+
+.footer-menu {
+    width: 408px;
+}
+
+.footer__list {
+    display: flex;
+    flex-wrap: wrap;
+    height: 145px;
+    flex-direction: column;
+}
+
+.footer-text {
+    margin-top: 10px;
+}
+
+.footer-contacts {
+    width: 439px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.footer .contacts {
+    text-align: right;
+
+}
+
+.contacts .footer-text {
+    width: auto;
+    margin-top: 15px;
+}
+
+.contacts__list {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.footer .telegram {
+    width: 60%;
+}
+
+.footer .contacts__phone {
+    width: 100%;
+}
+
+.copyright {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.footer .telegram,
+.footer .viber,
+.footer .whatsapp {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+
+@media (min-width: 381px) {
+    .mobile {
+        display: none;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 380px) {
+    .body {
+        background-image: none;
+    }
+    .desktop {
+        display: none;
+    }
+    .nav__link {
+        text-transform: uppercase;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .main .container {
+        flex-direction: column;
+        margin-top: 0;
+        padding-bottom: 44px;
+    }
+
+    .header .container {
+        margin-top: 0;
+        padding: 20px 16px;
+    }
+
+    .offer-heading {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .magnet-heading {
+        text-align: left;
+    }
+
+    .magnet-subheading {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: 0.05em;
+        margin-left: 15px;
+    }
+
+    .magnet__item {
+        position: relative;
+    }
+    
+    .magnet__item:before {
+        content: url(./img/line.png);
+        left: 0;
+        position: absolute;
+    }
+
+    .magnet__item {
+        justify-content: flex-start;
+        margin-top: 20px;
+    }
+    
+    .magnet__list {
+        justify-content: flex-start;
+    }
+    
+    .main {
+        background-image: url(./img/bg.png);
+        background-size: 100% 100%;
+    }
+
+    .nav__list {
+        width: 100%;
+    }
+
+    .nav {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .footer .container {
+        flex-direction: column;
+        margin-top: 0;
+        padding-top: 45px;
+    }
+
+    .footer-heading {
+        font-size: 12px;
+        line-height: 15px;
+        padding-bottom: 5px;
+    }
+
+    .footer-link, .footer-text {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .footer-contacts {
+        align-items: flex-start;
+        width: 243px;
+    }
+
+    .footer .contacts {
+        text-align: left;
+        margin-left: 0;
+    }
+
+    .contacts__list {
+        justify-content: flex-start;
+    }
+
+    .footer .telegram {
+        width: auto;
+    }
+
+    .copyright {
+        align-items: flex-start;
+        width: 239px;
+        margin-top: 50px;
+        padding-bottom: 60px;
+    }
+
+    .contacts .footer-text {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .footer__list {
+        height: 175px;
+    }
+
+    .footer-text {
+        width: 115px;
+    }
+
+    .footer-menu {
+        width: 259px;
+        margin-top: 30px;
+    }
+
+    .offer {
+        width: auto;
+        margin-top: 25px;
+    }
+
+    .footer__list .footer-text:nth-of-type(n+6) {
+        margin-left: 48px;
+    }
+
+    .magnet {
+        width: 285px;
+        margin-top: 41px;
+    }
+
+    .about {
+        width: auto;
+    }
+
+    .nav__list {
+        margin-top: 0;
+    }
+
+    .offer-text {
+        margin-top: 15px;
+    }
+
+    .about .footer-text {
+        width: auto;
+    }
+
+    .footer .telegram, .footer .viber, .footer .whatsapp {
+        margin-top: 8px;
+    }
+}
